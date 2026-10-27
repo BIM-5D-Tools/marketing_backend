@@ -1,4 +1,16 @@
+# Django Core & REST API
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.3.0
+
+# Xử lý ảnh & File upload (Bắt buộc cho ImageField, PDF)
+Pillow>=10.0.0
+
+# Database & Biến môi trường
 psycopg2-binary>=2.9.9
 dj-database-url>=2.1.0
+python-dotenv>=1.0.0
+
+# Server & Static files phục vụ Production
 gunicorn>=21.2.0
 whitenoise>=6.6.0
